@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
+
+@mixin theme {
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 26px;
+    position: absolute;
+    margin-left: 40%;
+}
+
+
+@mixin theme-input {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: 3px solid #958C88;
+    display: block;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left-side {
+    position: fixed;
+    height: 100%;
+}
+
+.desc {
+    @include theme;
+    margin-top: 110px;
+    margin-bottom: -100px;
+}
+
+.first-name {
+    @include theme;
+    margin-top: 280px;
+}
+
+.first-name-i  {
+    @include theme-input();
+}
+
+.last-name {
+    @include theme;
+    margin-top: 380px;
+}
+
+.last-name-i {
+    @include theme-input();
+}
+
+.email {
+    @include theme;
+    margin-top: 480px;
+}
+
+.email-i {
+    @include theme-input();
+}
+
+.phone-number {
+    @include theme;
+    margin-top: 580px;
+}
+
+.phone-number-i {
+    @include theme-input();
+}
+
+.password {
+    @include theme;
+    margin-top: 680px;
+}
+
+.password-i {
+    @include theme-input();
+}
+
+.cpassword {
+    @include theme;
+    margin-top: 780px;
+}
+
+.cpassword-i {
+    @include theme-input();
+}
+
+.submit {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 900px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 26px;
+    background-color: black;
+    color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.account {
+    position: absolute;
+    margin-left: 43.5%;
+    margin-top: 970px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.login {
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 1000px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 50px;
+    width: 900px;
+}

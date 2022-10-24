@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap");
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.left-side {
+  position: fixed;
+  height: 100%;
+}
+
+.desc {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 110px;
+  margin-bottom: -100px;
+}
+
+.first-name {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 280px;
+}
+
+.first-name-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.last-name {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 380px;
+}
+
+.last-name-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.email {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 480px;
+}
+
+.email-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.phone-number {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 580px;
+}
+
+.phone-number-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.password {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 680px;
+}
+
+.password-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.cpassword {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 780px;
+}
+
+.cpassword-i {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #958C88;
+  display: block;
+  font-size: 24px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.submit {
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 900px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 26px;
+  background-color: black;
+  color: white;
+  width: 280px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.account {
+  position: absolute;
+  margin-left: 43.5%;
+  margin-top: 970px;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: black;
+}
+
+.login {
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 1000px;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+}
+
+.overlay {
+  position: absolute;
+  margin-left: 59%;
+  margin-top: 50px;
+  width: 900px;
+}/*# sourceMappingURL=main.css.map */
