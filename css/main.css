@@ -191,4 +191,24 @@ body, html {
   margin-left: 59%;
   margin-top: 50px;
   width: 900px;
+}
+
+.message {
+  display: none;
+  justify-content: center;
+  margin-top: 50%;
+  font-size: 2rem;
+  color: red;
+  background-color: black;
+}
+
+@media (max-width: 900px) {
+  .message {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    font-size: 2rem;
+    color: red;
+    background-color: black;
+  }
 }/*# sourceMappingURL=main.css.map */
